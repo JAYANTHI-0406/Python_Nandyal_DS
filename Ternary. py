@@ -5,22 +5,22 @@ print(x)
 #To find min value of two numbers
 a=int(input("Enter a value:"))
 b=int(input("Enter b value:"))
-minmum=a if a<b else b
-print(minmum)
+min=a if a<b else b
+print("minvalue is", min)
 #To find max value of two numbers
 a=int(input("Enter a value:"))
 b=int(input("Enter b value:"))
-maximum=a if a>b else b
-print(maximum)
+max=a if a>b else b
+print("maximum is", max)
 #To find min value of three numbers
 a=int(input("Enter a value:"))
 b=int(input("Enter b value:"))
 c=int(input("Enter c value:"))
-minimum=a if a<b and a<c else b if b<c else c
-print(minimum)
+min=a if a<b and a<c else b if b<c else c
+print("minvalue is", min)
 #To find max value of three numbers
 a=int(input("Enter a value:"))
 b=int(input("Enter b value:"))
 c=int(input("Enter c value:"))
-maximum=a if a>b and a>c else b if b>c else c
-print(maximum )
+max=a if a>b and a>c else b if b>c else c
+print("maximum is", max)
