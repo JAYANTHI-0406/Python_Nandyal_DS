@@ -1,15 +1,17 @@
 
 #sum of Dictionaries
 
-marks = { "Maths":60, "Python":95, "HTMl":90}
-total= sum(marks.values())
-print(total)
+marks = { 3:60, 5:95, 6:90}
+s= sum(marks.values())
+print(s)
+s=sum(marks.keys())
+print(s)
 
 #sum of two dictionaries
 
 d1={'A':19, 'B':20}
 d2={'A':25, 'B':36}
 result={}
-for key in d1:
-	result[key]=d1[key] + d2[key]	
+for value in d1:
+	result[value]=d1[value]+d2[value]
 print(result)
